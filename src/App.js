@@ -1,5 +1,7 @@
 import React from "react";
 import { TodoCounter} from "./todocounter";
+import { TodoSearch } from "./todosearch";
+
 
 // import './App.css';
 
@@ -22,8 +24,7 @@ function App() {
   return (
     <React.Fragment>
       <TodoCounter />
-      {/* <TodoSearch /> */}
-        <input placeholder='Cebolla'/>
+      <TodoSearch />
       {/* <TodoList> */}
         {/* {todos.map(todo => (
           <TodoItem/>
