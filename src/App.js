@@ -1,6 +1,7 @@
 import React from "react";
 import { TodoCounter} from "./todocounter";
 import { TodoSearch } from "./todosearch";
+import { TodoList } from "./todolist";
 
 
 // import './App.css';
@@ -25,11 +26,11 @@ function App() {
     <React.Fragment>
       <TodoCounter />
       <TodoSearch />
-      {/* <TodoList> */}
-        {/* {todos.map(todo => (
-          <TodoItem/>
-        ))} */}
-      {/* </TodoList> */}
+      <TodoList>
+      {todos.map(todo => (
+        // <TodoItem/>
+      ))}
+      </TodoList>
       {/* <CreateTodoButton /> */}
       <button>+</button>
     </React.Fragment>
