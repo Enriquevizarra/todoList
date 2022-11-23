@@ -3,6 +3,7 @@ import { TodoCounter} from "./todocounter";
 import { TodoSearch } from "./todosearch";
 import { TodoList } from "./todolist";
 import { TodoItem } from "./todoitem";
+import { CreateTodoButton } from "./todocreatebutton";
 
 
 // import './App.css';
@@ -32,8 +33,7 @@ function App() {
         <TodoItem text={todo.text}/>
       ))}
       </TodoList>
-      {/* <CreateTodoButton /> */}
-      <button>+</button>
+      <CreateTodoButton />
     </React.Fragment>
   );
 }
