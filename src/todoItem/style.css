@@ -1,0 +1,49 @@
+.container-li{
+  cursor: pointer;
+  width: 70vw;
+  right: 40px;;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #39FF14;
+}
+.container-ul{
+  padding: 0 20px;
+}
+.check{
+  cursor: pointer;
+  width: 40px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 5px #39FF14, 0 0 15px #39FF14, 0 0 35px #39FF14, 0 0 50px #39FF14;
+}
+
+.check--completed{
+  font-size: 35px;
+  color: cyan;
+  text-shadow: 0 0 5px cyan, 0 0 15px cyan, 0 0 35px cyan, 0 0 50px skyblue;
+}
+.completed{
+  cursor: pointer;
+  width: 40px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 5px #39FF14, 0 0 15px #39FF14, 0 0 35px #39FF14, 0 0 50px #39FF14;
+}
+.completed:hover{
+  font-size: 35px;
+  color: red;
+  text-shadow: 0 0 5px red, 0 0 15px red, 0 0 35px red, 0 0 50px red;
+}
+
+.task{
+  color: #39FF14;
+  text-shadow: 0 0 5px #39FF14, 0 0 15px #39FF14, 0 0 35px #39FF14, 0 0 50px #39FF14;
+}
+.task--completed{
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  text-decoration-style: double;
+}
