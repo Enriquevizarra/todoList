@@ -1,0 +1,73 @@
+.container-form{
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  margin: 100px 0;;
+  width: 70vw;
+  /* border: 10px solid red; */
+  gap: 40px;
+  /* margin: 200px; */
+  /* width: 100vw; */
+}
+.label--title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #39ff14;
+  text-shadow: 0 0 5px #39ff14, 0 0 15px #39ff14, 0 0 35px #39ff14, 0 0 50px #39ff14;
+}
+.container-textTarea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 65vw;
+  height: auto;
+  border-radius: 30px;
+  transition: 0.8s linear 0.2s;
+  background: white;
+  box-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 35px blue, 0 0 50px blue ;
+  word-wrap: break-word;
+}
+.textTarea--todo{
+  /* word-wrap: break-word; */
+  width: 100vw;
+  border: none;
+  background: none;
+  outline: none;
+  resize: none;
+}
+.container--btns{
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn{
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  font-size: 28px;
+  border-radius: 100%;
+  transition: 0.8s linear 0.2s;
+  border: none;
+  cursor: pointer;
+  background: black;
+}
+.btn--cancel{
+  box-shadow: 0 0 5px red, 0 0 15px red, 0 0 35px red, 0 0 50px red ;
+  color: white;
+  text-shadow: 0 0 5px red, 0 0 15px red, 0 0 35px red, 0 0 50px red ;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--add{
+  box-shadow: 0 0 5px green, 0 0 15px green, 0 0 35px green, 0 0 50px green ;
+  color: white;
+  text-shadow: 0 0 5px green, 0 0 15px green, 0 0 35px green, 0 0 50px green ;
+  border: none;
+  cursor: pointer;
+}
