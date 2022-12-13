@@ -1,0 +1,32 @@
+.container-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 20px; */
+  width: 80vw;
+  height: 40px;
+  border-radius: 30px;
+  transition: 0.8s linear 0.2s;
+  background: white;
+  box-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 35px blue, 0 0 50px blue ;
+}
+
+.inputTodoList{
+  /* left: 2000px; */
+  width: 70vw;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.container-input:hover{
+  background: white;
+  box-shadow: 0 0 5px skyblue, 0 0 15px skyblue, 0 0 35px skyblue, 0 0 50px skyblue ;
+}
+
+
+::placeholder{
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 35px black, 0 0 50px black ;
+  font-size: 20px;
+}
